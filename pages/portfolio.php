@@ -60,13 +60,13 @@
                 <br>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/htmlCss/cefiiGolf/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet Golf du CEFII">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet Golf du CEFII">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text" role="img">Visitez le site</span>
                     </span>
                     <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/Golf" target="_blank" class="icon" aria-label="Visitez son GitHub">
+                        <a href="#" target="_blank" class="icon" aria-label="Visitez son GitHub">
                             <i class="fab fa-github" role="img"></i>
                         </a>
                         <span class="tooltip-text">GitHub</span>
@@ -98,13 +98,13 @@
                 <br>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/htmlCssJs/salleConcert/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet Salle de concert CEFII">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet Salle de concert CEFII">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
                     </span>
                     <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/salleConcert/tree/main" target="_blank" class="icon" aria-label="Visitez son GitHub">
+                        <a href="#" target="_blank" class="icon" aria-label="Visitez son GitHub">
                             <i class="fab fa-github" role="img"></i>
                         </a>
                         <span class="tooltip-text">GitHub</span>
@@ -140,13 +140,13 @@
                 <br>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/wordpress/mzlleflo/accueil/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez M'Zlle Flo">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez M'Zlle Flo">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
                     </span>
                     <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/mzlleflo" target="_blank" class="icon" aria-label="Visitez son GitHub">
+                        <a href="#" target="_blank" class="icon" aria-label="Visitez son GitHub">
                             <i class="fab fa-github" role="img"></i>
                         </a>
                         <span class="tooltip-text">GitHub</span>
@@ -238,7 +238,7 @@
                 <br>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../Mes_sites/grafytek/V4/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="troisième version site personnel">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="troisième version site personnel">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
@@ -273,7 +273,7 @@
                 <h3>Site personnel Grafytek v2 : année 2004</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../Mes_sites/grafytek/V3/pages/home.html" class="icon" target="_blank" rel="noopener noreferrer" aria-label="deuxième version site personnel">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="deuxième version site personnel">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
@@ -305,7 +305,7 @@
                 <h3>Site personnel Grafytek v1 : année 2000</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../Mes_sites/grafytek/mes_sites/site_version1/pages/sommaire.html" class="icon" target="_blank" rel="noopener noreferrer" aria-label="deuxième version site personnel">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="deuxième version site personnel">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
@@ -340,7 +340,7 @@
                 <h3>Test portfolio</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/V1/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Projet test">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Projet test">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
@@ -392,7 +392,7 @@
                 <h3>Projet gestion d'images en PHP-MVC</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/php/portfolio/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l application">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l application">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez l'application'</span>
@@ -439,7 +439,7 @@
                 <h3>Projet bibliothèque PHP-MVC</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/php/cefiiBiblio/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez l'application'</span>
@@ -486,7 +486,7 @@
                 <h3>Projet Création personnage jeux de rôle PHP Orienté Objet</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects//php/jdr//" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet ">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet ">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le projet</span>
@@ -529,7 +529,7 @@
                 <h3>Projet gestion de stock et fournisseurs</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/php/gestionStock" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le projet</span>
@@ -571,7 +571,7 @@
                 <h3>Projet de réservation en JavaScript</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/js/reservation/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
@@ -612,7 +612,7 @@
                 <h3>Convertisseur horaire JavaScript</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/js/convertisseurHoraire/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
+                        <a href="#" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez l'application</span>
