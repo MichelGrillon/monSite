@@ -14,7 +14,7 @@
             <br>
             <p>Pour plus d'informations, télécharger mon CV :</p>
             <div class="btn-con">
-                <span class="btn-icon"><i class="fas fa-download"></i></span>&nbsp;&nbsp;<a href="../fichiers/CV%20Michel%20Grillon%20Developpeur%20web%202024.pdf" title="CV Michel Grillon Developpeur web 2024" target="_blank" class="main-btn" tabindex="0">Télécharger le CV</a>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>&nbsp;&nbsp;<a href="../fichiers/#.pdf" title="CV" target="_blank" class="main-btn" tabindex="0">Télécharger le CV</a>
             </div>
             <br>
             <h3> &Agrave; propos de ce site :</h3>
