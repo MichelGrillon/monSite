@@ -21,12 +21,12 @@
 
     <!-- Liens vers les réseaux sociaux avec des attributs ARIA pour l'accessibilité -->
     <div class="logos-reseaux" id="reseauxLink">
-        <a href="https://www.linkedin.com/in/grillon-michel-7311b286/" target="_blank" aria-label="LinkedIn">
+        <a href="#" target="_blank" aria-label="LinkedIn">
             <i class="fab fa-linkedin" role="img"></i>
         </a>
     </div>
     <div class="logos-reseaux" id="reseauxGit">
-        <a href="https://github.com/MichelGrillon" target="_blank" aria-label="GitHub">
+        <a href="#" target="_blank" aria-label="GitHub">
             <i class="fab fa-github" role="img"></i>
         </a>
     </div>
