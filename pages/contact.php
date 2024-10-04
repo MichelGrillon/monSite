@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
 
-        $from = "webmaster@michel-grillon.fr";
-        $to = "contact@michel-grillon.fr";
+        $from = "webmaster@#.fr";
+        $to = "contact@#.fr";
         $subject = "Nouveau message de $nom $prenom";
         $message = "Nom: $nom\nPrenom: $prenom\nEmail: $email\n\nObjet: $objet\n\nCommentaire:\n$commentaire";
         $headers = "From: $from\r\n";
@@ -90,10 +90,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                 </div>
                 <div class="contact-icon">
-                    <a href="https://www.linkedin.com/in/grillon-michel-7311b286/" target="_blank" aria-label="Lien vers LinkedIn">
+                    <a href="#/" target="_blank" aria-label="Lien vers LinkedIn">
                         <i class="fab fa-linkedin" role="img"></i>
                     </a>
-                    <a href="https://github.com/MichelGrillon" target="_blank" aria-label="Lien vers GitHub">
+                    <a href="#" target="_blank" aria-label="Lien vers GitHub">
                         <i class="fab fa-github" role="img"></i>
                     </a>
                 </div>
