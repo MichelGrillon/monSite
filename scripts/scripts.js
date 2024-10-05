@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const themeToggleBtn = document.querySelector(".theme-btn");
     if (themeToggleBtn) {
         themeToggleBtn.addEventListener("click", () => {
-            document.body.classList.toggle("light-mode");
+            document.body.classList.toggle("dark-mode");
             const icon = themeToggleBtn.querySelector("i");
             icon.classList.toggle("rotated");
         });
