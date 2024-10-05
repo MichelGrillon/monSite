@@ -16,7 +16,7 @@ Version: 2.0
 }
 
 /* Pseudo-sélecteur, élément racine <html> pour définir les variables CSS globales  */
-
+/*le mode root est le mode clair par défaut, les couleurs sont inversées car à l' origine c'etait le mode foncé qui était par défaut*/
 :root {
   --color-primary: #FFFFFF;
   --color-secondary: #107B74;
@@ -36,7 +36,8 @@ Version: 2.0
   --color-black-transparent2: rgba(0, 0, 0, 0.5);
 }
 
-.light-mode {
+/*le light mode correspond au mode" sombre*/
+.dark-mode {
   --color-primary: #0A192F;
   --color-secondary: #107B74;
   --color-white: #FFFFFF;
@@ -93,6 +94,13 @@ a {
   text-decoration: none;
   color: inherit;
   font-family: inherit;
+}
+
+hr {
+  border: none; /* Supprime la bordure par défaut */
+  height: 2px; /* Épaisseur de la ligne */
+  background-color :  var(--color-secondary); /* Couleur de la ligne */
+  width: 100%; /* Largeur de la ligne */
 }
 
 small {
@@ -315,6 +323,7 @@ section {
   flex-direction: column;
   justify-content: center;
   padding-right: 18rem;
+  text-align: center;
 }
 
 .header-content .right-header .name {
@@ -827,17 +836,19 @@ section {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
 }
 
-.contact-content-con .right-contact {
+.right-contact {
   flex: 3;
   margin-left: 3rem;
 }
 
-.contact-content-con .right-contact .input-control {
+.input-control {
   margin: 1.5rem 0;
 }
 
-.contact-content-con .right-contact .input-control input,
-.contact-content-con .right-contact .input-control textarea {
+.input-control input,
+.input-control textarea,
+.input-control input[name="sujet"],
+.input-control textarea[name="commentaire"] {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
   border-radius: 30px;
   font-weight: inherit;
@@ -847,45 +858,49 @@ section {
   outline: none;
   border: none;
   background-color: var(--color-grey-4);
-  width: 100%;
   color: var(--color-white);
+  width: 100%;
   resize: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.contact-content-con .right-contact .input-control input,
-.contact-content-con .right-contact .input-control textarea {
-  color: var(--color-black);
-  /* S'assurer que le texte est bien en noir */
-}
-
-.contact-content-con .right-contact .input-control input:focus,
-.contact-content-con .right-contact .input-control textarea:focus {
+/* Styles pour tous les champs en focus ou avec du contenu */
+.input-control input:focus,
+.input-control textarea:focus,
+.input-control input:not(:placeholder-shown),
+.input-control textarea:not(:placeholder-shown) {
   background-color: var(--color-white);
-  /* Le champ devient blanc au focus */
   color: var(--color-black);
-  /* Le texte devient noir au focus */
 }
 
-.contact-content-con .right-contact .input-control input:not(:placeholder-shown),
-.contact-content-con .right-contact .input-control textarea:not(:placeholder-shown) {
-  background-color: var(--color-white);
-  /* Garder le champ blanc tant qu'il y a du texte */
+/* Styles spécifiques pour le sujet et le commentaire */
+.input-control input[name="sujet"],
+.input-control textarea[name="commentaire"] {
+  background-color: var(--color-grey-4);
+  color: var(--color-black);
 }
 
-.contact-content-con .right-contact .i-c-2 {
-  display: flex;
+.input-control input[name="sujet"]:focus,
+.input-control textarea[name="commentaire"]:focus,
+.input-control input[name="sujet"]:not(:placeholder-shown),
+.input-control textarea[name="commentaire"]:not(:placeholder-shown) {
+  background-color: #E8F0FE;
+  color: var(--color-white);
 }
 
-.contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
-  /*box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);*/
+.dark-mode .input-control input[name="sujet"]:focus,
+.dark-mode .input-control textarea[name="commentaire"]:focus,
+.dark-mode .input-control input[name="sujet"]:not(:placeholder-shown),
+.dark-mode .input-control textarea[name="commentaire"]:not(:placeholder-shown) {
+  background-color: #E8F0FE;
+  color: var(--color-black);
 }
 
-.contact-content-con .right-contact .submit-btn {
-  /*box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);*/
+.submit-btn {
   display: flex;
   justify-content: flex-start;
 }
+
 #submit-btn {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
   margin: 2px;
@@ -1211,8 +1226,8 @@ footer .container {
 
   .header-content .left-header .image {
     margin: 0 auto;
-    width: 50%;
-    height: 80%;
+    width: 100%;
+    height: 95%;
   }
 
   .header-content .left-header .image img {
