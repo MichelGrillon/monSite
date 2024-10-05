@@ -21,11 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ini_set('display_errors', 1);
         error_reporting(E_ALL);
 
-        // Nettoyage et validation des données
+         // Nettoyage et validation des données
         $nom = htmlspecialchars(strip_tags(trim($_POST['nom'])));
         $prenom = htmlspecialchars(strip_tags(trim($_POST['prenom'])));
         $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
-        $objet = htmlspecialchars(strip_tags(trim($_POST['objet'])));
+        $sujet = htmlspecialchars(strip_tags(trim($_POST['sujet'])));
         $commentaire = htmlspecialchars(strip_tags(trim($_POST['commentaire'])));
 
         // Validation de l'adresse email
@@ -34,10 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             exit;
         }
 
-        $from = "webmaster@#.fr";
-        $to = "contact@#.fr";
+        $from = "###@###.fr";
+        $to = "###@###.fr";
         $subject = "Nouveau message de $nom $prenom";
-        $message = "Nom: $nom\nPrenom: $prenom\nEmail: $email\n\nObjet: $objet\n\nCommentaire:\n$commentaire";
+        $message = "Nom: $nom\nPrenom: $prenom\nEmail: $email\n\nSujet: $sujet\n\nCommentaire:\n$commentaire";
         $headers = "From: $from\r\n";
         $headers .= "Reply-To: $email\r\n";
         $headers .= "X-Mailer: PHP/" . phpversion();
@@ -114,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <input type="email" id="email" name="email" class="form-control" required placeholder="VOTRE EMAIL*" autocomplete="email" aria-required="true">
                     </div>
                     <div class="input-control">
-                        <input type="text" id="objet" name="objet" class="form-control" required placeholder="OBJET DU MAIL*" autocomplete="off" aria-required="true">
+                        <input type="text" id="sujet" name="sujet" class="form-control" required placeholder="SUJET DU MAIL*" autocomplete="on" aria-required="true">
                     </div>
                     <div class="input-control">
                         <textarea id="commentaire" name="commentaire" class="form-control" cols="15" rows="8" placeholder="Votre message ici...*" autocomplete="off" aria-required="true"></textarea>
