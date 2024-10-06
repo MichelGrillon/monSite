@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <i class="fas fa-envelope" role="img"></i>
                             <span>Email :</span>
                         </div>
-                        <p><span>contact@michel-grillon.fr</span></p>
+                        <p><span>###&#64;#####.fr</span></p>
                     </div>
                 </div>
                 <div class="contact-icon">
