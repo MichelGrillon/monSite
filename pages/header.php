@@ -7,9 +7,9 @@
     <!-- Activer les CSS Media Queries -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Michel Grillon Développeur Web Junior passionné et curieux.">
-    <!-- Pour autoriser l'indexation (sinon noindex) et autoriser de suivre les liens (sinon nofollow) -->
     <meta name="author" content="Michel Grillon">
     <title>Portfolio de Michel Grillon | Développeur Web Junior</title>
+    <!-- Pour autoriser l'indexation (sinon noindex) et autoriser de suivre les liens (sinon nofollow) -->
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <!-- Mes fichiers annexes -->
     <link rel="stylesheet" href="styles/styles.css">
