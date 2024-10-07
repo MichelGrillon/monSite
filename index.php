@@ -29,15 +29,12 @@ include 'pages/header.php';
         </div>
         <div class="right-header">
             <h1 class="name">
-                Bonjour, 
-            </h1>
-            <p>je suis <span><br>Michel Grillon.</span></p><br>
-            <h2>Développeur web junior.</h2><br>
-            <hr><br>
-            <h3>Site en construction et en tests.</h3>
-            <br>
-            <hr>
-            <br>
+                    Bonjour, je suis <br>
+                        <span>Michel Grillon</span><br>
+                    Développeur web junior
+                </h1>
+                <hr>
+                <br>
             <div id="dateHeure">
                 <span id="date">
                     <?php
