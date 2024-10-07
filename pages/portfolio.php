@@ -1,12 +1,12 @@
 <section class="container" id="portfolio">
     <!-- Section for Desktop Title -->
     <div class="main-title">
-        <h2>Mon <span>Portfolio</span><span class="bg-text">Mon Travail</span></h2>
+        <h2>Mon <span>Portfolio</span><span class="bg-text">PROJETS</span></h2>
     </div>
 
     <!-- Section for Mobile Title -->
     <div class="mobile-main-title">
-        <h2>Ma <span>Gallerie</span><span class="bg-text">Mon Travail</span></h2>
+        <h2>Ma <span>Gallerie</span><span class="bg-text">PROJETS</span></h2>
     </div>
     <br><br>
     <!-- Introduction Paragraph -->
