@@ -328,7 +328,7 @@
 
     <!-- Test Works Section -->
     <h3>Tests, essais :</h3>
-    <p> Des tests et/ou essais HTMl, CSS, Javascript, Ajax, PHP qui me serviront ou pas par la suite...</p>
+    <p> Des tests et/ou essais HTMl, CSS, Javascript, Ajax, PHP ...</p>
     <div class="portfolios">
 
         <!-- Portfolio Item 7 -->
@@ -380,7 +380,7 @@
 
     <!-- Applications Section -->
     <h3>Applications :</h3>
-    <p> Des applications en Javascript, Ajax, PHP faites lors de ma formation afin d'apprendre les bases...</p>
+    <p> Des applications en Javascript, Ajax, PHP faites lors de ma formation ...</p>
     <div class="portfolios">
 
         <!-- Portfolio Item 8 -->
@@ -474,53 +474,10 @@
                 </div>
             </div>
             <p>Gestion bibliothèque PHP-MVC.</p>
-            <p>Inscription requise, pas finalisé, reste bugs....</p>
+            <p>Inscription requise ....</p>
         </div>
 
-        <!-- Portfolio Item 10 -->
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="/../images/projects/jdr.webp" alt="jeux de rôle">
-            </div>
-            <div class="hover-items">
-                <h3>Projet Création personnage jeux de rôle PHP Orienté Objet</h3>
-                <div class="icons">
-                    <span class="tooltip-mobile">
-                        <a href="/../projects/php/jdr/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet ">
-                            <i class="fa-solid fa-globe" role="img"></i>
-                        </a>
-                        <span class="tooltip-text">Visitez le projet</span>
-                    </span>
-                    <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/jdr" class="icon" target="_blank" aria-label="Visitez son GitHub">
-                            <i class="fab fa-github" role="img"></i>
-                        </a>
-                        <span class="tooltip-text">GitHub</span>
-                    </span>
-                </div>
-                <br>
-                <div class="languages">
-                    <p>
-                        <span class="tooltip-mobile">
-                            <i class="fa-brands fa-html5" role="img" aria-label="HTML"></i>
-                            <span class="tooltip-text">HTML</span>
-                        </span>
-                        <span class="tooltip-mobile">
-                            <i class="fa-brands fa-css3-alt" role="img" aria-label="CSS"></i>
-                            <span class="tooltip-text">CSS</span>
-                        </span>
-                        <span class="tooltip-mobile">
-                            <i class="fa-brands fa-php" role="img" aria-label="PHP"></i>
-                            <span class="tooltip-text">PHP</span>
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <p>Création de personnages JdR</p>
-            <p>PHP orienté objet - Pas finalisé</p>
-        </div>
-
-        <!-- Portfolio Item 11 -->
+         <!-- Portfolio Item 10 -->
         <div class="portfolio-item">
             <div class="image">
                 <img src="/../images/projects/stock.webp" alt="gestion de stock">
@@ -561,7 +518,7 @@
             </div>
             <p>Gestion de stock-fournisseurs PHP</p>
         </div>
-        <!-- Portfolio Item 12 -->
+        <!-- Portfolio Item 11 -->
         <div class="portfolio-item">
             <div class="image">
                 <img src="/../images/projects/reservationJs.webp" alt="Réservation javascript">
@@ -602,7 +559,7 @@
             </div>
             <p>Formulaire de réservation JavaScript</p>
         </div>
-        <!-- Portfolio Item 13 -->
+        <!-- Portfolio Item 12 -->
         <div class="portfolio-item">
             <div class="image">
                 <img src="/../images/projects/convertisseur.webp" alt="Projet 6">
