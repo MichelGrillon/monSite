@@ -14,7 +14,7 @@
             <br>
             <p>Pour plus d'informations, télécharger mon CV :</p>
             <div class="btn-con">
-                <span class="btn-icon"><i class="fas fa-download"></i></span>&nbsp;&nbsp;<a href="../fichiers/#.pdf" title="CV" target="_blank" class="main-btn" tabindex="0">Télécharger le CV</a>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>&nbsp;&nbsp;<a href="../fichiers/CV%20Michel%20Grillon%20Developpeur%20web%202024.pdf" title="CV Michel Grillon Developpeur web 2024" target="_blank" class="main-btn" tabindex="0">Télécharger le CV</a>
             </div>
             <br>
             <h3> &Agrave; propos de ce site :</h3>
@@ -116,7 +116,7 @@
                 <i class="fas fa-briefcase" role="img"></i>
             </div>
             <p class="tl-duration">2023 - present</p>
-            <h4>Formation Developpent Web et Web Mobile<span> - CEFII Angers (49)</span></h4>
+            <h4>Formation Développement Web et Web Mobile<span> - CEFII Angers (49)</span></h4>
             <p>
                 Titre Professionnel - BAC+2, Code RNCP : 37674
             </p><br>
