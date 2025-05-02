@@ -87,24 +87,25 @@
                 </div>
             </div>
         </div>
+        
 
         <!-- Portfolio Item 2 -->
         <div class="portfolio-item">
             <div class="image">
-                <img src="/../images/projects/salleConcert.webp" alt="Salle concert du CEFII">
+                <img src="/../images/projects/radioFm.webp" alt="Site radio fm">
             </div>
             <div class="hover-items">
-                <h3>Salle de concert CEFII</h3>
+                <h3>Exercice Radio Fm Rock</h3>
                 <br>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/htmlCssJs/salleConcert/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet Salle de concert CEFII">
+                        <a href="/../projects/htmlCssJs/RadioFm/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez le projet d'une radio fm">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez le site</span>
                     </span>
                     <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/salleConcert/tree/main" target="_blank" class="icon" aria-label="Visitez son GitHub">
+                        <a href="https://github.com/MichelGrillon/RadioFm" target="_blank" class="icon" aria-label="Visitez son GitHub">
                             <i class="fab fa-github" role="img"></i>
                         </a>
                         <span class="tooltip-text">GitHub</span>
@@ -129,7 +130,8 @@
                 </div>
             </div>
         </div>
-
+            
+            
         <!-- Portfolio Item 3 -->
         <div class="portfolio-item">
             <div class="image">
@@ -380,7 +382,7 @@
 
     <!-- Applications Section -->
     <h3>Applications :</h3>
-    <p> Des applications en Javascript, Ajax, PHP faites lors de ma formation ...</p>
+    <p> Des applications en Javascript, PHP faites lors de ma formation ...</p>
     <div class="portfolios">
 
         <!-- Portfolio Item 8 -->
@@ -430,22 +432,23 @@
             <p>Créer un compte pour le test...</p>
         </div>
 
+        
         <!-- Portfolio Item 9 -->
         <div class="portfolio-item">
             <div class="image">
-                <img src="/../images/projects/biblioCefii.webp" alt="image bibliothèque du cefii">
+                <img src="/../images/projects/disques.webp" alt="image gestion de disque">
             </div>
             <div class="hover-items">
-                <h3>Projet bibliothèque PHP-MVC</h3>
+                <h3>Exercice / projet gestion disque vinyle PHP-MVC</h3>
                 <div class="icons">
                     <span class="tooltip-mobile">
-                        <a href="/../projects/php/cefiiBiblio/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
+                        <a href="/../projects/php/Vinyl/" class="icon" target="_blank" rel="noopener noreferrer" aria-label="Visitez l'application'">
                             <i class="fa-solid fa-globe" role="img"></i>
                         </a>
                         <span class="tooltip-text">Visitez l'application'</span>
                     </span>
                     <span class="tooltip-mobile">
-                        <a href="https://github.com/MichelGrillon/Biblio" class="icon" target="_blank" aria-label="Visitez son GitHub">
+                        <a href="https://github.com/MichelGrillon//GestionDisquesVinyles" class="icon" target="_blank" aria-label="Visitez son GitHub">
                             <i class="fab fa-github" role="img"></i>
                         </a>
                         <span class="tooltip-text">GitHub</span>
@@ -473,10 +476,11 @@
                     </p>
                 </div>
             </div>
-            <p>Gestion bibliothèque PHP-MVC.</p>
-            <p>Inscription requise ....</p>
+            <p>Gestion de disque vinyle PHP-MVC.</p>
+            <p>Inscription gratuite requise (gestion utilisateur)...</p>
         </div>
-
+        
+        
          <!-- Portfolio Item 10 -->
         <div class="portfolio-item">
             <div class="image">
